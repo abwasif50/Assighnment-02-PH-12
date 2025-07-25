@@ -21,9 +21,12 @@
 }
 @media screen and (max-width:576px) {
 
-
+.cart{
+  margin-left:50px;
+}
   .hide{
     display: none;
+  
   }
 .flower-section{
   width: 100%;
@@ -57,7 +60,7 @@
 margin-top: 20PX;
     }
     .card{
-      width:190px;
+      width: 180px;
     }
     .title{
       text-align: center;
@@ -78,4 +81,60 @@ margin-top: 20PX;
       width: 100%;
       padding: auto;
     }
+
+.deal-section{
+  width: 100%;
+padding-right: 42px;
+}
+
+.flowers-container{
+  flex-direction: column;
+  width:450px;
+margin-right: 15px;
+
+}
+.flowers-container img{
+padding-right: 5px;
+width:445px;
+
+
+}
+.shop-now{
+margin-top: 80px;
+margin-right:  120px;
+
+}
+.discount{
+  margin-left: 75px;
+  margin-top: 85px;
+
+}
+.bigger{
+  margin-left: 30px;
+}
+
+
+.join-section{
+width: 100%;
+  width: 440px;
+  height: 400px;
+  margin-left:px;
+
+}
+.join-section form{
+
+height: 50px;
+  width: 240px;
+}
+.join-section input{
+
+  width: 240px;
+  height: 50px;
+}
+
+
+
+
+
+
   }
